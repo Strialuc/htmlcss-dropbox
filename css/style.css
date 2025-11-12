@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+
+/*utility*/
+
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -30,7 +34,19 @@ li {
     padding: 10px;
 }
 
+.btn:hover{
+    background-color:aqua;
+}
 
+.img-fluid{
+    max-width: 100%;
+}
+
+
+/* header*/
+
+
+/*sezione navbar*/
 
 .navbar {
     /*
@@ -40,36 +56,69 @@ li {
     position: sticky;
     top: 0;
     z-index: 500;
-    padding: 30px;
+    margin:20px;
 }
 
 .nav-sec {
-    flex-basis: calc(100% / 4);
+    flex-basis: calc(100% / 3);
 }
 
 .nav-text {
     justify-content: space-evenly;
 }
 
+
+/*sezione jumbotron*/
+
 .jumbotron {
     background-color: lightblue;
+    padding: 30px;
 }
 
 .jumbotron-container {
-    width: 80%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 30px 0;
 }
 
 #jumbotron-title{
-    font-size: 80px;
+    font-size: 60px;
     padding: 30px 0;
+}
+
+.jumbotron-sec{
+    
 }
 
 .jumbo-left{
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    height: 400px;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+}
+
+.jumbo-right{
+    width: 70%;
+}
+
+/* sezione "business"*/
+
+.sec-business{
+    padding: 60px;
+}
+
+.business-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fatturazione{
+    padding: 20px;
+    gap:100px;
+}
+
+.colonne{
+    flex-wrap: wrap;
 }
