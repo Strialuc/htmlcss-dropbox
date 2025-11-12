@@ -1,7 +1,75 @@
 /*reset*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+.navbar {
+    /*
+    height: 200px;*/
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    padding: 30px;
+}
+
+.nav-sec {
+    flex-basis: calc(100% / 4);
+}
+
+.nav-text {
+    justify-content: space-evenly;
+}
+
+.jumbotron {
+    background-color: lightblue;
+}
+
+.jumbotron-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#jumbotron-title{
+    font-size: 80px;
+    padding: 30px 0;
+}
+
+.jumbo-left{
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 400px;
 }
