@@ -36,9 +36,22 @@ li {
     padding: 10px;
 }
 
+
+
 .btn:hover{
     background-color:aqua;
 }
+
+.btn--gray{
+    background-color: white;
+    color: gray;
+}
+
+.btn--gray:hover{
+    background-color: lightgrey;
+}
+
+
 
 .img-fluid{
     max-width: 100%;
@@ -177,7 +190,7 @@ li {
 }
 
 .enterprise-container{
-      max-width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     gap:30px;
     padding-top:20px;
@@ -192,6 +205,57 @@ li {
 
 .enterprise-left{
     width:30%;
+}
+
+.section-partner{
+    padding:80px;
+}
+
+.partner-container{
+    gap:20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.partner-right{
+    width: 65%;
+}
+
+.partner-left{
+    flex-direction: column;
+    padding: 30px;
+    width:35%;
+    gap: 20px;
+}
+
+.section-operazioni
+{
+     padding: 50px;
+}
+
+.operazioni-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-section{
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.card{
+width: calc(100% / 3 - (40px/3));
+}
+
+.utilizzatori-section{
+    padding: 60px;
+}
+
+.utilizzatori-container{
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 40px;
 }
 
     
